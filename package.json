@@ -4,19 +4,34 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nx/devkit": "23.2.0",
     "@nx/js": "23.2.0",
+    "@nx/playwright": "23.2.0",
+    "@nx/react": "^23.2.0",
+    "@nx/vite": "23.2.0",
+    "@nx/web": "23.2.0",
+    "@playwright/test": "^1.37.0",
     "@swc-node/register": "1.11.1",
     "@swc/core": "1.15.8",
     "@swc/helpers": "0.5.18",
     "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "jiti": "2.4.2",
     "nx": "23.2.0",
     "prettier": "^3.8.1",
     "tslib": "^2.3.0",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "vite": "^8.0.0"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/*",
+    "react-app"
+  ],
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }
