@@ -43,23 +43,6 @@
       }
     }
   ],
-  "nxCloudId": "6aa0512ff4a1f0e76c35a82d",
-  "analytics": true,
-  "generators": {
-    "@nx/react": {
-      "application": {
-        "babel": true,
-        "style": "css",
-        "linter": "none",
-        "bundler": "vite"
-      },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "none"
-      }
-    }
-  }
+  "nxCloudId": "6aa0e6bd6e0a5df2e9e7b37c",
+  "analytics": true
 }
